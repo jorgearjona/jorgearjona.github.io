@@ -314,6 +314,7 @@ background-color: black;
  .logo-foot {
   width: 40%;
   margin-bottom: 3em;
+  min-width: 250px;
 }
 
 /* PORTADA  */
@@ -997,8 +998,8 @@ pre {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px; }
+  /*margin-right: -15px;
+  margin-left: -15px;*/ }
 
 .no-gutters {
   margin-right: 0;
