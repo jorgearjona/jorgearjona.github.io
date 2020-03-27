@@ -580,7 +580,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  /*background-color: #fff;*/ }
+  background-color: #000000; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -7890,15 +7890,15 @@ header {
   header .navbar {
     padding-top: 0;
     padding-bottom: 0;
-    height: 80px;
+    /*height: 80px;*/
     /*background: none !important;*/
     position: relative;
     font-family: 'Josefin Sans', sans-serif; }
     @media (max-width: 1199.98px) {
       header .navbar {
         background: black !important;
-        padding-top: .5rem;
-        padding-bottom: .5rem; } }
+        padding-top: 1rem;
+        padding-bottom: 1rem; } }
     header .navbar .nav-link {
       padding: 1.7rem 1rem;
       outline: none !important;
