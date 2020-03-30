@@ -229,11 +229,13 @@
   }
 
 .portada {
-  background-image: url('../images/jorge-b.jpg');
+  background-image: url('../images/jorge.jpg');
+  background-size: cover;
   position: relative;
   z-index: 4;
   min-height: 100vh;
-  background-position: top;
+  background-position-x: center;
+  background-position-y: top;
 }
 
 
